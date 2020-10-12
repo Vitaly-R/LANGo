@@ -327,7 +327,7 @@ class GameInstance:
                         for y, x in [(current[0] - 1, current[1]), (current[0], current[1] + 1),
                                      (current[0] + 1, current[1]), (current[0], current[1] - 1)]:
                             if 0 <= y < self.board.shape[0] and 0 <= x < self.board.shape[1]:
-                                if (y, x) not in local_visited:
+                                if (y, x) not in local_visited and (y, x) not in neighbors:
                                     neighbors.append((y, x))
                     elif self.board[current] == self.BLACK:
                         found_black = True

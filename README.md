@@ -9,4 +9,4 @@ Arguments:
 How to run:
 1. Run main.py with the arguments 0, [h or ai], 0.0.0.0 to start the server player. The server's internal IP
 address will be printed to the console.
-2. Run main.py with the arguments 1, [h or ai], [server internal ip address]
+2. Run main.py with the arguments 1, [h or ai], [server internal ip address].
